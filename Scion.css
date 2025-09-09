@@ -1,0 +1,103 @@
+body {
+border: none;
+border-radius: 5px;
+}
+
+.logo img {
+  height: 50px;   
+  width: auto;
+}
+
+
+.search-bar input,
+.search-bar select {
+flex: 1;
+min-width: 150px;
+}
+
+
+/* About Us */
+.about {
+padding: 3rem 0;
+background: #f9f9f9;
+}
+
+
+.about-container {
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+align-items: center;
+}
+
+
+.about img {
+border-radius: 8px;
+max-width: 100%;
+}
+
+
+.learn-more {
+display: inline-block;
+margin-top: 1rem;
+color: #0a1f44;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+/* Why Choose Us */
+.why {
+padding: 3rem 0;
+}
+
+
+.why-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 1.5rem;
+text-align: center;
+}
+
+
+.why-item h3 {
+color: #0a1f44;
+margin-bottom: 0.5rem;
+}
+
+
+/* CTA */
+.cta {
+background: #0a1f44;
+color: #fff;
+text-align: center;
+padding: 3rem 1rem;
+}
+
+
+.cta h2 {
+margin-bottom: 1.5rem;
+}
+
+
+/* Footer */
+footer {
+background: #f1f1f1;
+padding: 1rem 0;
+text-align: center;
+}
+
+
+.footer-container {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+align-items: center;
+}
+
+
+.socials a {
+margin: 0 0.5rem;
+text-decoration: none;
+color: #0a1f44;
+}
