@@ -138,11 +138,17 @@ header {
   display: block;
 }
 
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
 /* Navigation */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -164,8 +170,9 @@ header {
   color: #fff;
   padding: 0.6rem 1.2rem;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
   transition: background 0.3s;
+  font-weight: 500;
 }
 
 .btn-primary:hover {
