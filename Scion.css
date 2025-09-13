@@ -5,7 +5,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 
 .logo img {
-  height: 135px;   
+  height: 150px;   
   width: 150px;
 
 }
@@ -135,25 +135,57 @@ text-decoration: none;
 }
 
 
-/* Why Choose Us */
-.why {
-padding: 3rem 0;
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
 }
 
-
-.why-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-gap: 1.5rem;
-text-align: center;
+.why-choose-us h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0d1b2a;
 }
 
-
-.why-item h3 {
-color: #0a1f44;
-margin-bottom: 0.5rem;
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+.feature-box {
+  background: #f9f9f9;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.feature-box i {
+  font-size: 2rem;
+  color: #1b4d89;
+  margin-bottom: 1rem;
+}
+
+.feature-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #0d1b2a;
+}
+
+.feature-box p {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
 
 /* CTA */
 .cta {
