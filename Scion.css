@@ -18,10 +18,10 @@ flex: 1;
 min-width: 150px;
 }
 
-/* Hero Section */
+
 .hero {
   background: url('modern-home.jpg') center/cover no-repeat;
-  height: 95vh; /* takes almost full screen */
+  height: 95vh; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@ min-width: 150px;
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.4); /* dark overlay */
+  background: rgba(0,0,0,0.4); 
 }
 
 .hero-content {
@@ -50,7 +50,7 @@ min-width: 150px;
   line-height: 1.2;
 }
 
-/* Search Box */
+
 .search-box {
   background: #fff;
   padding: 1rem;
@@ -74,7 +74,6 @@ min-width: 150px;
   padding: 0.6rem 1.5rem;
 }
 
-/* About Us Section */
 .about {
   background: #f9f9f9;
   padding: 4rem 2rem;
@@ -135,7 +134,7 @@ text-decoration: none;
 }
 
 
-/* Why Choose Us Section */
+
 .why-choose-us {
   padding: 4rem 2rem;
   background: #fff;
@@ -187,7 +186,7 @@ text-decoration: none;
   line-height: 1.5;
 }
 
-/* CTA */
+
 .cta {
 background: #0a1f44;
 color: #fff;
@@ -201,7 +200,7 @@ margin-bottom: 1.5rem;
 }
 
 
-/* Footer */
+
 footer {
 background: #f1f1f1;
 padding: 1rem 0;
@@ -238,9 +237,9 @@ header {
   padding: 0.75rem 0;
 }
 
-/* Logo */
+
 .logo img {
-  height: 50px; /* adjust size */
+  height: 50px; 
   width: auto;
   display: block;
 }
@@ -251,7 +250,7 @@ header {
   display: block;
 }
 
-/* Navigation */
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -271,7 +270,7 @@ header {
   color: #163d8f;
 }
 
-/* Button in header */
+
 .btn-primary {
   background: #0a1f44;
   color: #fff;
